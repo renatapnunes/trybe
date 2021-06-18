@@ -1,3 +1,5 @@
+teste
+
 # Trybe
 
 Este repositório contém minhas atividades como aluna do curso de Desenvolvimento Web da [Trybe](https://www.betrybe.com/) :rocket:
