@@ -1,0 +1,31 @@
+h3{
+    margin: 0;
+    height: 25px;
+}
+div:hover{
+    border: 2px dotted grey;
+}
+div:nth-of-type(1) h3{
+    background-color: blue;
+    color:#D2ACAD;
+}
+div:nth-of-type(2) h3{
+    background-color: purple;
+    color:#CDB2B2;
+}
+div:nth-of-type(3) h3{
+    background-color: green;
+    color:#C7B7B8;
+    height: 35px;
+}
+div:nth-of-type(4) h3{
+    background-color: darkblue;
+    color:#C5BABA;
+}
+div:nth-of-type(5) h3{
+    background-color: lightblue;
+    color:#fff;
+}
+div:nth-of-type(odd) h3{
+    font-style: italic;
+}

@@ -1,0 +1,25 @@
+h1, p {
+    text-align: center;
+}
+ul, ol{
+    background-color: #fff;
+    color: #000;
+    font-weight: bold;
+    font-family: monospace;
+    list-style: none;
+}
+ol:hover, ul:hover {
+    background-color: #e63946;
+    color: #fff;
+}
+li {
+    height: 20px;
+}
+li:hover {
+    background-color: #fff;
+    color: #e63946;
+    width: 95%;
+}
+li:active {
+    font-family: Georgia;
+}
