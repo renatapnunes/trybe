@@ -1,0 +1,32 @@
+h1 {
+    font-size: 65px;
+    color: orange;
+    font-family: sans-serif;
+    text-decoration: underline;
+}
+.bg_color {
+    background-color: peachpuff;
+}
+p {
+    font-weight: 600;
+    font-size: 3em;
+    text-align: center;
+}
+body {
+    font-size: 16px;
+    background-color: antiquewhite;
+}
+#bg_amarelo {
+    background-color: yellow;
+}
+#bg_vermelho {
+    background-color: red;
+}
+#bg_marrom {
+    background-color: brown;
+}
+ul {
+    line-height: 2em;
+    font-family: monospace;
+    font-style: bold;
+}
