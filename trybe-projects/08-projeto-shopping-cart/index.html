@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <title>Shopping Cart Project</title>
+  </head>
+  <body>
+    <header>
+      <h1>SHOP ONLINE</h1>
+      <div class="div_search">
+        <input class="search" type="search" placeholder="Buscar">
+        <button class="button_search"> <img class="image_search" src="./images/icon_search.png"/></button>
+      </div>
+    </header>
+    <section class="cart">
+      <section class="cart_header">
+        <img class="image_cart" src="./images/shoppingCart.png" alt="Carrinho de compras">
+        <span class="number_items" ></span>
+      </section>
+      <ol class="cart__items"></ol>
+      <span class="total__price"></span>
+      <button class="checkout">Finalizar compra</button>
+      <button class="empty-cart">Esvaziar carrinho</button>
+    </section>
+    <section class="container">
+      <section class="items"></section>
+    </section>
+    <footer>
+      <p>Projeto Shooping Cart - Curso de Desenvolvimento Web - Trybe |</p>
+      <p>Feito por <a href="https://www.linkedin.com/in/renata-p-nunes/" target="_blank">Renata Nunes</a> com HTML, CSS, JavaScript e amor! |</p>
+      <p>API utilizada: <a href="https://developers.mercadolivre.com.br/pt_br/api-docs-pt-br" target="_blank">Mercado Livre - Developers</a></p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

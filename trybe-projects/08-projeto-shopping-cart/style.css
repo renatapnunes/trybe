@@ -1,0 +1,356 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(241, 250, 238);
+  color: rgb(64, 64, 64);
+  font-family: Arial, sans-serif;
+  line-height: 19px;
+}
+
+header {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  height: 60px;
+  padding: 10px 50px;
+  margin-bottom: 10px;
+  background-color: rgb(0, 117, 162);
+  position: fixed;
+  z-index: 2;
+}
+
+h1 {
+  font-family: Bungee, cursive;
+  color: white;
+}
+
+.div_search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search {
+  border: none;
+  border-right: none;
+  height: 25px;
+  padding: 5px 10px;
+}
+
+.search:focus {
+  outline: none;
+
+}
+
+.button_search {
+  border-left: none;
+  border-radius: 0;
+  box-shadow: none;
+  height: 25px;
+  padding: 5px;
+  background-color: white;
+}
+
+.button_search:hover {
+  background-color: white;
+  box-shadow: none;
+}
+
+.image_search {
+  height: 15px;
+  align-self: center;
+  margin-top: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  z-index: 1;
+}
+
+.items {
+  display: flex;
+  flex-basis: 70%;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 70px;
+  margin-right: 35%;
+}
+
+.image_loading {
+  width: 20%;
+  margin-top: 50px;
+}
+
+.item {
+  border: 1px solid white;
+  border-radius: 5px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: auto;
+  margin: 8px;
+  width: 200px;
+  background-color: white;
+  box-shadow: 2px 2px 3px rgb(170, 170, 170);
+  transition: all 0.1s;
+}
+
+.item:hover {
+  -moz-transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+.item .item__sku {
+  display: none;
+}
+
+.item .item__title {
+  flex-grow: 1;
+  padding: 5px 10px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.item .item__image {
+  width: 80%;
+  margin: 0;
+}
+
+.item .item__price {
+  margin-top: 5px;
+  font-size: 18px;
+  font-weight: 800;
+}
+
+button {
+  border: 0;
+  border-radius: 10px;
+  box-shadow: 2px 2px 3px rgb(170, 170, 170);
+  cursor: pointer;
+  margin: 8px 0;
+  padding: 5px;
+  color: white;
+  font-size: 14px;
+}
+
+.item .item__add {
+  background-color: rgb(41, 191, 18);
+  width: 150px;
+}
+
+button:hover , .item .item__add:hover {
+  background-color: rgb(37, 175, 16);
+  box-shadow: 2px 2px 3px rgb(170, 170, 170);
+}
+
+button:active , .item .item__add:active {
+  background-color: rgb(37, 175, 16);
+  box-shadow: 1px 1px 1px rgb(170, 170, 170);
+}
+
+.cart {
+  display: flex;
+  flex-basis: 30%;
+  flex-flow: column wrap;
+  align-items: center;
+  background-color: white;
+  padding: 20px;
+  margin-top: 75px;
+  margin-right: 2%;
+  box-shadow: 2px 2px 3px rgb(170, 170, 170);
+  border: 1px solid rgb(250, 250, 250);
+  border-radius: 5px;
+  height: fit-content;
+  position: fixed;
+  right: 10px;
+  width: 30%;
+}
+
+.cart_header {
+  position: relative;
+  width: 60px;
+  margin-bottom: 20px;
+}
+
+.image_cart {
+  width: 60px;
+  position: absolute;
+}
+
+.number_items {
+  background-color: rgb(41, 191, 18);
+  color: white;
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 25px;
+  width: 25px;
+  text-align: center;
+  border-radius: 50%;
+  position: absolute;
+  margin-left: 50px;
+}
+
+.cart .cart__items {
+  overflow-y: scroll;
+  padding-left: 15px;
+  min-width: 100%;
+  margin-top: 60px;
+  margin-bottom: 15px;
+}
+
+.cart .cart__item {
+  text-align: center;
+  font-size: 12px;
+  border-top: 1px solid rgb(233, 233, 233);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cart__item__image {
+  width: 20%;
+}
+
+.cart__item__infos {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 5px;
+}
+
+.cart__sku {
+  color: rgb(170, 170, 170);
+  font-size: 10px;
+}
+
+.cart__name {
+  font-size: 12px;
+  text-align: start;
+  line-height: 13px;
+}
+
+.cart__price {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+ol {
+  height: 40vh;
+}
+
+p {
+  padding: 10px;
+  font-size: 18px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.empty-cart , .checkout {
+  width: 80%;
+  font-size: 18px;
+}
+
+.checkout {
+  background-color: rgb(41, 191, 18);
+  font-weight: 600;
+}
+
+.empty-cart {
+  background-color: rgb(80, 182, 185);
+}
+
+.empty-cart:hover {
+  background-color: rgb(65, 170, 173);
+}
+
+.empty-cart:active {
+  background-color: rgb(65, 170, 173);
+}
+
+.image_checkout {
+  width: 30%;
+  margin: 40px;
+  align-self: center;
+}
+
+footer {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  padding: 5px;
+  margin-right: 35%;
+}
+
+footer p {
+  padding: 2px;
+  color: rgb(170, 170, 170);
+  font-size: 10px;
+  line-height: 12px;
+}
+
+footer a {
+  color: rgb(170, 170, 170);
+}
+
+/* A customização da scrollbar foi adicionada com base no seguinte link:
+https://www.digitalocean.com/community/tutorials/css-scrollbars-pt */
+
+body::-webkit-scrollbar , .cart .cart__items::-webkit-scrollbar {
+  width: 8px;
+}
+
+body::-webkit-scrollbar-track , .cart .cart__items::-webkit-scrollbar-track {
+  background: rgb(241, 250, 238);
+}
+
+body::-webkit-scrollbar-thumb , .cart .cart__items::-webkit-scrollbar-thumb {
+  background-color: rgb(209, 209, 209);
+  border-radius: 20px;
+}
+
+@media screen and (max-width: 660px) {
+  header {
+    position: relative;
+    height: 70px;
+  }
+  
+  .container {
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .items {
+    margin-top: 0;
+    margin-right: 0;
+    width: 100vw;
+  }
+
+  .cart {
+    position: relative;
+    margin-top: 5px;
+    margin-right: 0;
+    margin-left: 35px;
+    width: 90vw;
+    height: 90vh;
+    align-self: center;
+  }
+
+  footer {
+    justify-content: center;
+    margin-right: 0;
+  }
+}
