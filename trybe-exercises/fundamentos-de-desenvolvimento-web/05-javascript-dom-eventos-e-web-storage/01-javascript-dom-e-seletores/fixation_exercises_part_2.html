@@ -1,0 +1,56 @@
+ <!-- *************************** Usando getElementById, getElementsByClassName e getElementsByTagName ************************
+
+<!DOCTYPE html>
+<html>
+  <body>
+    <h2 id="page-title">Título</h2>
+    <p id="paragraph" class="paragrafo">Dê uma cor para este parágrafo!</p>
+    <h4 id="subtitle">Subtítulo</h4>
+    <p id="second-paragraph" class="paragrafo">Segundo parágrafo!</p>
+
+    <script>
+      var paragraph = document.getElementById("paragraph");
+      paragraph.style.color = "red";
+
+      document.getElementById("page-title").innerText = "How to Train Your Dragon";
+
+      document.getElementById("second-paragraph").innerText = "Soluço é um adolescente viking da ilha de Berk, onde lutar contra dragões é um meio de vida. Suas opiniões avançadas e um senso de humor estranho o tornam um desajustado, apesar de seu pai ser o chefe do clã. Jogado em uma escola de combate a dragões, ele quer provar que é um verdadeiro viking, mas ao fazer amizade com um dragão machucado, ele tem a chance de mudar o futuro de seu povo.";
+
+      document.getElementById("subtitle").innerText = "Filme de animação da Universal";
+
+      let paragrafos = document.getElementsByClassName("paragrafo");
+      paragrafos[0].style.color = "purple";
+
+      document.getElementsByTagName("h4")[0].style.color = "darkblue";
+    </script>
+  </body>
+</html> -->
+
+<!-- ******************************************* Usando querySelector e querySelectorAll ********************************** -->
+
+<!DOCTYPE html>
+<html>
+  <body>
+    <h2 id="page-title">Título</h2>
+    <p id="paragraph" class="paragrafo">Dê uma cor para este parágrafo!</p>
+    <h4 id="subtitle">Subtítulo</h4>
+    <p id="second-paragraph" class="paragrafo">Segundo parágrafo!</p>
+
+    <script>
+      var paragraph = document.querySelector("#paragraph");
+      paragraph.style.color = "red";
+
+      document.querySelector("#page-title").innerText = "Death Note";
+
+      document.querySelector("#second-paragraph").innerText = "Um inteligente estudante do ensino médio embarca em uma cruzada secreta para eliminar os criminosos do mundo depois de descobrir um caderno capaz de matar qualquer pessoa cujo nome está escrito nele.";
+
+      document.querySelector("#subtitle").innerText = "Anime da Nippon Television";
+
+      let paragrafos = document.querySelectorAll(".paragrafo");
+      paragrafos[0].style.color = "darkgrey";
+
+      document.querySelector("h4").style.color = "darkblue";
+    </script>
+  </body>
+</html>
+
