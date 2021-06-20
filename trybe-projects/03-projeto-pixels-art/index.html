@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pixels Art</title>
+</head>
+<body>
+    <h1 id="title">Paleta de Cores</h1>
+    <div id="div-color-palette">
+        <div id="color-palette">
+        </div>
+        <button id="refresh"><img id="image-refresh" src="./images/refresh-button.png" alt="Botão refresh"></button>
+    </div>
+    <button id="erase"><img id="image-erase" src="./images/erase.png" alt="Botao borracha"></button>
+    <button id="clear-board">Limpar</button>
+    <div id="generate-board-size">
+        <input id="board-size"
+          placeholder="Tamanho em pixels [5-50]"
+          type="number"
+          min="1"
+        >
+        <button id="generate-board">VQV</button>
+    </div>
+    <div id="pixel-board"></div>
+    <footer>
+        <img id="image-yoshi" src="./images/Yoshi.png" alt="Yoshi">
+        <p>Projeto Pixels Art - Curso de Desenvolvimento Web - Trybe<br>Feito por <a href="https://www.linkedin.com/in/renata-p-nunes/" target="_blank">Renata Nunes</a> com HTML, CSS, JavaScript e s2</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
