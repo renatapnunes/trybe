@@ -2,5 +2,6 @@
 
 Com estes exercícios aprendi:
 
-- Adicionar e remover elementos HTML da página via JavaScript ;
-- Buscar os elementos da página com a propriedade parentNode .
+-   Adicionar e remover elementos  _HTML_ da página via  _JavaScript_ ;
+    
+-   Buscar os elementos da página com a propriedade  `parentNode`  .

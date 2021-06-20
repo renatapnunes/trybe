@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dia 7.1: Part II - Exercicio 3</title>
+</head>
+<body>
+    <button id="button-click">Click</button>
+    <p id="text">Numero de clicks: 0</p>
+    <script>
+        let clickCount = 0;
+        let text = document.getElementById('text');
+        let buttonClick = document.getElementById('button-click');
+
+        buttonClick.addEventListener('click', () => {
+            clickCount += 1;
+            text.innerText = `Numero de clicks: ${clickCount}`;
+        });
+    </script>
+</body>
+</html>

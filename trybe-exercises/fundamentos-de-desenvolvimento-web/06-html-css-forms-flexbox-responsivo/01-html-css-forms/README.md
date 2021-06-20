@@ -2,4 +2,4 @@
 
 Com estes exercícios aprendi:
 
-- Criar formulários em HTML com as tags : input , button , textarea , select , form .
+-   Criar formulários em  **_HTML_** com as  `tags`  :  `input`  ,  `button`  ,  `textarea`  ,  `select`  ,  `form`  .

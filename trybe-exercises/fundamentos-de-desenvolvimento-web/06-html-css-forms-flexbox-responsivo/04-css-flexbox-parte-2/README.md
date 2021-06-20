@@ -2,5 +2,5 @@
 
 Com estes exercícios aprendi:
 
-- Utilizar CSS Flexbox para criar layouts flexíveis;
-- Utilizar CSS Flexbox para alterar o comportamento de items .
+-   Utilizar  _CSS Flexbox_ para criar layouts flexíveis;
+-   Utilizar  _CSS Flexbox_ para alterar o comportamento de  _items_ .
