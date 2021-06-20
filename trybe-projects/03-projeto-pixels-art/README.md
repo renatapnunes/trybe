@@ -10,4 +10,4 @@ _Projeto proposto no curso de Desenvolvimento Web da_ [_Trybe_](https://www.betr
 Foi implementada uma página web, utilizando JavaScript, HTML e CSS, onde é possível criar desenhos em Pixel Art, através de uma paleta de cores aleatórias funcional.
 
 ##### Resultado:
-![Gif do resultado do projeto]()
+![Gif do resultado do projeto](https://github.com/renatapnunes/trybe/blob/main/trybe-projects/03-projeto-pixels-art/Projeto%20Pixel%20Art.gif)
