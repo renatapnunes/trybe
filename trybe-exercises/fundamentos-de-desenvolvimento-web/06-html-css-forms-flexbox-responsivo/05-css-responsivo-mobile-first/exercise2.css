@@ -1,0 +1,212 @@
+html {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: rgb(252, 248, 208);
+}
+
+.container {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+header {
+    background-color: rgb(13, 181, 223);
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    height: auto;
+}
+
+header p {
+    margin: 5px;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+}
+
+li {
+    list-style: none;
+    margin: 5px;
+    font-size: 18px;
+}
+
+nav ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding: 0px;
+    margin: 0px 15px;
+}
+
+p {
+    font-size: 22px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.aside-one ul, .aside-two ul{
+    padding-right: 40px;
+}
+
+.aside-two {
+    text-align: center;
+}
+
+hr {
+    width: 300px;
+    height: 1px;
+    margin: 20px auto;
+    background-color: rgb(0, 0, 0);
+}
+
+h1 {
+    margin: 30px 5px 5px 5px;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.main-content {
+    margin: 5px 30px;
+}
+
+footer {
+    margin: 5px 30px;
+}
+
+footer p {
+    font-size: 18px;
+}
+
+/* Tamanho de tela media: Maior que 540px e menor que 770px*/
+@media screen and (min-width: 541px) and (max-width: 769px) {
+    header {
+        align-content: center;
+    }
+
+    header p {
+        margin: 20px;
+        font-size: 42px;
+    }
+
+    li {
+        margin: 15px;
+        font-size: 28px;
+    }
+
+    p {
+        font-size: 32px;
+    }
+
+    h2 {
+        margin: 40px auto;
+        font-size: 30px;
+    }
+
+    .aside-one ul {
+        margin-left: 60px;
+    }
+
+    hr {
+        margin: 60px auto;
+    }
+
+    h1 {
+        font-size: 38px;
+    }
+
+    .main-content {
+        margin: 10px 80px;
+    }
+
+    footer {
+        margin: 10px 80px;
+    }
+
+    h3 {
+        font-size: 30px;
+    }
+    
+    footer p {
+        font-size: 28px;
+    }
+}
+
+/* Tamanho de tela grande: Maior que 769px */
+@media screen and (min-width: 770px) {
+    header {
+        align-content: center;
+    }
+
+    header p {
+        margin: 20px;
+        font-size: 52px;
+    }
+
+    li {
+        margin: 15px;
+        font-size: 22px;
+    }
+
+    .div-container{
+        display: flex;
+        flex-flow: row nowrap;
+        flex-grow: 1;
+    }
+
+    .div-container .main-content {
+        order: 1;
+        flex-basis: 70%;
+        flex-grow: 1;
+    }
+    .div-container .aside-container {
+        order: 2;
+        flex-basis: 30%;
+        flex-grow: 1;
+    }
+
+    p {
+        font-size: 28px;
+    }
+
+    h2 {
+        margin: 60px auto;
+        font-size: 30px;
+    }
+
+    .aside-one ul {
+        margin-left: 10px;
+    }
+
+    hr{
+        margin: 60px auto;
+    }
+
+    .main-content {
+        margin: 10px 80px;
+    }
+
+    footer {
+        margin: 10px 80px;
+    }
+
+    h3 {
+        font-size: 24px;
+    }
+    
+    footer p {
+        font-size: 22px;
+    }
+}
