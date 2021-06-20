@@ -14,4 +14,4 @@ Para identificar a interação do usuário, foram utilizados eventos e funções
 Para garantir a qualidade do código, foi utilizado neste projeto os linters [ESLint](https://eslint.org/) e [StyleLint](https://stylelint.io/), afim de deixar o código mais legível, de fácil manutenção e alinhado com as boas práticas de desenvolvimento.
 
 ##### Resultado:
-![Gif do resultado do projeto]()
+![Gif do resultado do projeto](https://github.com/renatapnunes/trybe/blob/main/trybe-projects/04-projeto-to-do-lis/Projeto%20To%20Do%20List.gif)
