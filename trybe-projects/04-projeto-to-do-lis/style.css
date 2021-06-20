@@ -1,0 +1,221 @@
+body {
+  width: auto;
+  height: auto;
+  background: linear-gradient(to left bottom, rgb(38,93,182), rgb(204,82,78));
+  background-size: 400%, 400%;
+  animation: backgroundAnimation 8s ease infinite;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+#imagem-cerebro {
+  height: 350px;
+  position: absolute;
+  top: 300px;
+  right: 5px;
+}
+
+section {
+  min-height: 600px;
+  padding: 40px 60px;
+  border-radius: 50px;
+  margin: 40px 120px 40px 120px;
+  background-color: rgb(255,255,255);
+}
+
+header {
+  color: rgb(11,28,55);
+  font-family: Fredoka One, cursive;
+  font-size: 70px;
+  text-transform: uppercase;
+  text-shadow: 5px 5px 1px rgb(188,186,214);
+  text-align: center;
+}
+
+#conteiner {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+#lista {
+  min-width: 300px;
+}
+
+ol {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 20px;
+  color: rgb(19,7,185);
+  font-family: Pacifico, cursive;
+  font-size: 24px;
+}
+
+li {
+  border-radius: 50px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  line-height: 26px;
+}
+
+li:hover {
+  font-size: 25px;
+  cursor: default;
+}
+
+.completed {
+  text-decoration: line-through double rgba(19,7,185,0.5);
+}
+
+#botoes {
+  margin-top: 50px;
+  margin-left: 10px;
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+
+#botoes div:nth-of-type(1), div:nth-of-type(2), div:nth-of-type(3), div:nth-of-type(4) {
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 2px 12px;
+  border: 1px solid rgb(126,68,130);
+  border-radius: 30px;
+  color: rgb(19,7,185);
+  font-family: Ubuntu, sans-serif;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+input:focus {
+  box-shadow: 2px 2px 4px rgb(248,179,176), -2px -2px 4px rgb(248,179,176);
+  outline: none;
+}
+
+::-webkit-input-placeholder {
+  color: rgb(128,115,129);
+  font-family: Ubuntu, sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  font-style: oblique;
+}
+
+.imagem-setas {
+  height: 12px;
+  padding: 2px;
+  margin-top: 5px;
+}
+
+p {
+  margin-top: 0px;
+  margin-bottom: 15px;
+  color: rgb(125,85,128);
+  font-family: Ubuntu, sans-serif;
+  font-weight: 300;
+  font-style: oblique;
+}
+
+#funcionamento {
+  color: rgb(255,255,255);
+  font-family: 5px;
+  text-align: center;
+}
+
+button {
+  padding: 5px 10px;
+  border-radius: 18px;
+  color: rgb(255,255,255);
+  font-family: Ubuntu, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+button:hover {
+  padding: 6px 11px;
+}
+
+#criar-tarefa {
+  border: 1px solid rgb(126,68,130);
+  box-shadow: 3px 3px 5px rgb(100,53,104);
+  background-color: rgb(126,68,130);
+}
+
+#criar-tarefa:active {
+  border: 1px solid rgb(126,68,130);
+  box-shadow: 2px 2px 2px rgb(83,42,87);
+  background-color: rgb(126,68,130);
+}
+
+#mover-baixo, #mover-cima {
+  border: 1px solid rgb(126,68,130);
+  box-shadow: 3px 3px 5px rgb(100,53,104);
+  margin-right: 20px;
+  background-color: rgb(126,68,130);
+}
+
+#mover-baixo:active, #mover-cima:active {
+  border: 0px solid rgb(126,68,130);
+  box-shadow: 2px 2px 2px rgb(83,42,87);
+  margin-right: 20px;
+  background-color: rgb(126,68,130);
+}
+
+#remover-finalizados, #remover-selecionado, #apaga-tudo {
+  border: 1px solid rgb(211,68,63);
+  box-shadow: 3px 3px 5px rgb(185,7,1);
+  margin-right: 20px;
+  background-color: rgb(211,68,63);
+}
+
+#remover-finalizados:active, #remover-selecionado:active, #apaga-tudo:active {
+  border: 1px solid rgb(211,68,63);
+  box-shadow: 2px 2px 2px rgb(168,7,1);
+  margin-right: 20px;
+  background-color: rgb(211,68,63);
+}
+
+#salvar-tarefas {
+  border: 1px solid rgb(42,156,63);
+  box-shadow: 3px 3px 5px rgb(0,104,19);
+  background-color: rgb(42,156,63);
+}
+
+#salvar-tarefas:active {
+  border: 1px solid rgb(42,156,63);
+  box-shadow: 2px 2px 2px rgb(0,87,16);
+  background-color: rgb(42,156,63);
+}
+
+footer {
+  padding-top: 80px;
+  color: rgb(126,68,130);
+  font-family: Ubuntu, sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 18px;
+  text-align: center;
+}
+
+/* Código retirado desde vídeo: https://www.youtube.com/watch?v=6zjdx_HO2-g&ab_channel=WillianJustenCursos */
+@keyframes backgroundAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}

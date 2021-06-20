@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Pacifico&family=Ubuntu:ital,wght@0,300;0,500;1,300&display=swap" rel="stylesheet">
+    <title>To Do List</title>
+</head>
+<body>
+    <img id="imagem-cerebro" src="./images/cerebro_tranquilo.png" alt="Cerebro fazendo yoga">
+    <section>
+        <header>Minha Lista de Tarefas</header>
+        <p id="funcionamento">Clique duas vezes em um item para marcá-lo como completo</p>
+        <div id="conteiner">
+            <div id="lista">
+                <ol id="lista-tarefas"></ol>
+            </div>
+            <div id="botoes">
+                <div>
+                    <input id="texto-tarefa" type="text" placeholder="Insira uma tarefa">
+                    <button id="criar-tarefa" class="botao">Adicionar</button>
+                </div>
+                <div>
+                    <button id="mover-baixo" class="botao"><img class="imagem-setas" src="./images/seta_baixo.png
+                        " alt="Seta para cima"></button>
+                    <button id="mover-cima" class="botao"><img class="imagem-setas" src="./images/seta_cima.png
+                        " alt="Seta para cima"></button>
+                </div>
+                <div>
+                    <p>Clique duas vezes em um item<br>para marcá-lo como completo</p>
+                    <button id="remover-finalizados" class="botao">Apagar Tarefas Completas</button>
+                </div>
+                <div>
+                    <button id="remover-selecionado" class="botao">Apagar Tarefa</button>
+                    <button id="apaga-tudo" class="botao">Apagar Lista</button>
+                </div>
+                <button id="salvar-tarefas" class="botao">Salvar Lista</button>
+            </div>
+        </div>
+        <footer>
+            Projeto To Do List - Curso de Desenvolvimento Web - Trybe | Feito por <a href="https://www.linkedin.com/in/renata-p-nunes/" target="_blank">Renata Nunes</a> com HTML, CSS, JavaScript e amor!
+            <br>Créditos da imagem: <a target="_blank" href="https://br.vexels.com/png-svg/previsualizar/199335/desenho-animado-de-ioga-cerebral-fofo">Vexels</a>
+        </footer>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
