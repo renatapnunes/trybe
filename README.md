@@ -76,9 +76,9 @@ Este repositório contém minhas atividades como aluna do curso de Desenvolvimen
 ##### Bloco 10:  Testes Automatizados com Jest
 
 - [x] 10-1: _Primeiros passos no Jest_
-- [x] 10-1: _Jest - Testes Assíncronos_
-- [x] 10-2: _Jest - Simulando comportamentos_
-- [x] 10-3: _[Projeto - Jest Assíncrono e Mocking](https://github.com/tryber/sd-012-project-jest/pull/54)_
+- [x] 10-2: _Jest - Testes Assíncronos_
+- [x] 10-3: _Jest - Simulando comportamentos_
+- [x] 10-4: _[Projeto - Jest Assíncrono e Mocking](https://github.com/tryber/sd-012-project-jest/pull/54)_
 
 ## Desenvolvimento Front-end ⌛
 
@@ -158,7 +158,7 @@ Este repositório contém minhas atividades como aluna do curso de Desenvolvimen
 - [ ] 22.1: _Transformando ideias em um modelo de banco de dados - Parte 1_
 - [ ] 22.2: _Normalização, Formas Normais e Dumps_
 - [ ] 22.3: _Transformando ideias em um modelo de banco de dados - Parte 2_
-- [ ] 22.3: _Projeto - One For All_
+- [ ] 22.4: _Projeto - One For All_
 
 ##### Bloco 23: Introdução ao MongoDB
 
@@ -186,7 +186,7 @@ Este repositório contém minhas atividades como aluna do curso de Desenvolvimen
 - [ ] 26-3: _Testes com NodeJS_
 - [ ] 26.4: _Express: HTTP com Node.js_
 - [ ] 26.5: _Praticando Express_
-- [ ] 26.4: _Projeto - Talker Manager_
+- [ ] 26.6: _Projeto - Talker Manager_
 
 ##### Bloco 27: NodeJS: Camada de Serviço e Arquitetura Rest e Restful
 
