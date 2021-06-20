@@ -1,0 +1,336 @@
+html {
+  scroll-behavior: smooth;
+}
+
+:target {
+  position: relative;
+  top: -150px;
+}
+
+tbody div:target {
+  position: relative;
+  top: -350px;
+}
+
+body {
+  background-color: rgb(253, 251, 251);
+  font-family: Montserrat, sans-serif;
+}
+
+.lado-direito {
+  float: right;
+}
+
+.lado-esquerdo {
+  float: left;
+}
+
+#cabecalho {
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  right: 0;
+  left: 0;
+  border-bottom-right-radius: 18px;
+  border-bottom-left-radius: 18px;
+  background-color: rgb(40, 40, 38);
+  color: rgb(253, 251, 251);
+  text-align: center;
+}
+
+#cabecalho a {
+  color: rgb(253, 251, 251);
+  text-decoration: none;
+}
+
+ul {
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 12px;
+  margin-left: 12px;
+}
+
+nav ul li:hover {
+  font-weight: 700;
+}
+
+#perfil {
+  min-height: 240px;
+  background-image: url('./images/quadriculado.png');
+  background-repeat: no-repeat;
+  margin-top: 150px;
+  margin-right: 20%;
+  margin-left: 20%;
+}
+
+#minha_foto {
+  width: 200px;
+  border-radius: 50%;
+  border: 5px solid rgb(241, 87, 35);
+  box-shadow: 3px 5px 1px rgb(250, 171, 28), -6px -3px 1px rgb(92, 79, 161);
+  margin-top: 20px;
+  margin-left: 10%;
+}
+
+#perfil_descricao {
+  margin-top: 50px;
+  margin-right: 10%;
+  text-align: center;
+}
+
+h2 {
+  display: inline-block;
+  color: rgb(92, 79, 161);
+  font-family: Fira Code, monospace;
+  font-size: 30px;
+}
+
+#nome {
+  display: block;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: rgb(92, 79, 161);
+  color: rgb(253, 251, 251);
+  font-family: Fira Code, monospace;
+  font-size: 25px;
+}
+
+#curso {
+  display: inline;
+  background-color: rgb(250, 171, 28);
+  color: rgb(92, 79, 161);
+  font-weight: 600;
+}
+
+#turma {
+  display: inline;
+  background-color: rgb(250, 171, 28);
+  color: rgb(92, 79, 161);
+  font-size: 12px;
+  font-weight: 600;
+}
+
+#conteudos_abordados {
+  min-height: 450px;
+  margin-top: 50px;
+}
+
+#conteudos_abordados h2 {
+  margin-top: 50px;
+  margin-left: 170px;
+}
+
+#licoes_aprendidas li {
+  font-size: 25px;
+  line-height: 40px;
+}
+
+#licoes_aprendidas li:hover {
+  color: rgb(92, 79, 161);
+  font-weight: 600;
+}
+
+#licoes_aprendidas_coluna_1 {
+  margin-top: 1%;
+  margin-left: 100px;
+}
+
+#licoes_aprendidas_coluna_2 {
+  margin-top: 1%;
+  margin-left: 130px;
+}
+
+#conteudos_abordados div:nth-of-type( 1 ) {
+  max-width: 45%;
+}
+
+#imagem_mulheres {
+  height: 350px;
+  margin-top: 20px;
+  margin-right: 100px;
+  vertical-align: middle;
+}
+
+#meu_aprendizado {
+  min-height: 700px;
+}
+
+#imagem_fita_adesiva {
+  width: 98%;
+  height: 150px;
+  position: absolute;
+  z-index: 0;
+  margin-left: 1%;
+}
+
+.espaco_artigo_aside {
+  min-height: 600px;
+  position: absolute;
+  z-index: 1;
+  box-shadow: 5px 5px 8px rgb(194, 194, 194), -1px -1px 5px rgb(194, 194, 194);
+  margin-top: 60px;
+  background-color: rgb(253, 251, 251);
+}
+
+#artigo_meu_aprendizado {
+  max-width: 60%;
+  margin-left: 5%;
+}
+
+#aside_meu_aprendizado {
+  margin-right: 5%;
+  margin-left: 68%;
+}
+
+#meu_aprendizado_titulo {
+  display: inline-block;
+  margin-top: 65px;
+  margin-left: 100px;
+}
+
+#artigo_meu_aprendizado p , #aside_meu_aprendizado p {
+  margin-top: 50px;
+  margin-right: 50px;
+  margin-left: 50px;
+  font-size: 20px;
+  font-weight: 200;
+  line-height: 35px;
+  text-align: justify;
+}
+
+strong {
+  font-weight: 400;
+}
+
+#imagem_abre_aspas {
+  width: 100px;
+  position: relative;
+  z-index: 1;
+  padding-right: 30px;
+  margin-top: 120px;
+  margin-left: 50px;
+}
+
+#imagem_fecha_aspas {
+  width: 100px;
+  position: relative;
+  z-index: 1;
+  bottom: 30px;
+  left: 650px;
+  padding-left: 10px;
+}
+
+#imagem_github {
+  width: 150px;
+  position: relative;
+  margin-top: 30px;
+  margin-right: 105px;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+h3 {
+  display: inline;
+  margin-left: 130px;
+  background-color: rgb(250, 171, 28);
+  color: rgb(253, 251, 251);
+  font-family: Fira Code, monospace;
+  font-size: 25px;
+}
+
+#aside_meu_aprendizado a {
+  padding-bottom: 20px;
+  margin-left: 120px;
+  font-size: 20px;
+}
+
+#skills {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+table {
+  width: 50%;
+  border: 5px solid rgb(241, 87, 35);
+  border-collapse: collapse;
+  margin-left: 25%;
+  font-family: Montserrat, sans-serif;
+  text-align: center;
+}
+
+thead {
+  padding-bottom: 5px;
+  background-color: rgb(241, 87, 35);
+  color: rgb(253, 251, 251);
+  font-family: Fira Code, monospace;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+thead tr th:nth-of-type( 1 ) {
+  padding-left: 5px;
+  text-align: left;
+}
+
+thead tr th:nth-of-type( 2 ) {
+  padding-right: 10px;
+  text-align: right;
+}
+
+tbody tr td {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 3px solid rgb(253, 251, 251);
+  background-color: rgb(229, 226, 226);
+  color: rgb(40, 40, 38);
+  line-height: 25px;
+}
+
+tbody tr td:nth-of-type( 1 ) {
+  font-size: 20px;
+}
+
+.tabela_segunda_linha {
+  background-color: rgb(253, 251, 251);
+  color: rgb(241, 87, 35);
+  font-size: 20px;
+  line-height: 30px;
+}
+
+#proximos_conteudos {
+  text-align: center;
+}
+
+#licoes_a_aprender li {
+  display: inline-block;
+  padding: 5px;
+  margin-right: 20px;
+  margin-bottom: 15px;
+  margin-left: 20px;
+  font-size: 25px;
+}
+
+#rodape {
+  width: 100%;
+  display: inline-block;
+  padding-top: 30px;
+  border-top: 1px solid rgb(40, 40, 38);
+  color: rgb(40, 40, 38);
+  font-family: Fira Code, monospace;
+  font-size: 12px;
+  line-height: 5px;
+  text-align: right;
+}
+
+#rodape img {
+  width: 18px;
+  position: relative;
+  bottom: 25px;
+}
+
+#rodape p:nth-of-type( 2 ) {
+  margin-right: 22px;
+}
