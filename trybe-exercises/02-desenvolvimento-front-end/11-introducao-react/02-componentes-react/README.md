@@ -17,3 +17,8 @@ Com este exercício aprendi:
 -   Utilizar  `PropTypes`  para checar que uma  `prop`  é um objeto de formato específico;
     
 -   Utilizar  `PropTypes`  para garantir que uma  `prop`  é um array com elementos de um determinado tipo.
+
+
+#### _Resultado do exercício:_
+
+![Gif do resultado do exercicio](https://github.com/renatapnunes/trybe/blob/main/trybe-exercises/02-desenvolvimento-front-end/11-introducao-react/02-componentes-react/Exercicio%20Pokedex%20com%20React.gif)
