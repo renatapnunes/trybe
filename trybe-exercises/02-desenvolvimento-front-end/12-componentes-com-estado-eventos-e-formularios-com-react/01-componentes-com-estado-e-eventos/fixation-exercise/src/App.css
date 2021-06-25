@@ -1,0 +1,30 @@
+.App {
+  text-align: center;
+}
+
+h2 {
+  color: rgb(44, 44, 44);
+}
+
+h5 {
+  color: rgb(185, 185, 185);
+  font-style: oblique;
+}
+
+button {
+  height: 50px;
+  width: 100px;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0);
+  background-color: #DADDDF;
+}
+
+.blue {
+  color: #ffff;
+  background-color: #2487C8;
+}
+
+.green {
+  color: #ffff;
+  background-color: #05B105;
+}
