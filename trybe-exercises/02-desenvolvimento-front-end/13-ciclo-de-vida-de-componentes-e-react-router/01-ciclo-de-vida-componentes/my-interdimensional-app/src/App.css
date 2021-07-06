@@ -1,0 +1,29 @@
+.App {
+  background-size: cover;
+  background: linear-gradient(-45deg,#0b0c0c,  #125269, #125269, #0b0c0c);
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.container {
+  /* background-color: rgb(31, 30, 30); */
+  background-color: #0d7aa1;
+  border-radius: 2px;
+  border: 3px solid rgba(0, 0, 0, 0.125);
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.418);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  height: 20%;
+  margin: 5px;
+  margin-bottom: 35px;
+  width: 300px;
+}
+
+.body {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding: 30px;
+}
