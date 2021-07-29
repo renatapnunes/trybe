@@ -1,0 +1,11 @@
+button {
+  background-color: rgb(110, 162, 185);
+  margin: 10% 45% 0 45%;
+  padding: 10px;
+}
+
+.number {
+  font-size: 30px;
+  margin: 20px 47%;
+  padding: 10px;
+}
